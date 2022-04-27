@@ -71,7 +71,7 @@ function stampNewMember (member){
 
 function createTeamMember(){
 
-  const newMember = new Object();
+  const newMember ={};
 
   const getName = document.getElementById('name').value;
   const getRole = document.getElementById('role').value;
