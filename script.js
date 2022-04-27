@@ -3,15 +3,36 @@ const teamMembers = [
     name: 'Wayne Barnett',
     role: 'Founder & CEO',
     photo: "img/wayne-barnett-founder-ceo.jpg",
+  },
+  {
+    name: 'Angela Caroll',
+    role: 'Chief Editor',
+    photo: "img/angela-caroll-chief-editor.jpg",
+  },
+  {
+    name: 'Angela Lopez',
+    role: 'Social Media Manager',
+    photo: "img/angela-lopez-social-media-manager.jpg",
+  },
+  {
+    name: 'Barbara Ramos',
+    role: 'Graphic Designer',
+    photo: "img/barbara-ramos-graphic-designer.jpg",
+  },
+  {
+    name: 'Scott Estrada',
+    role: 'Developer',
+    photo: "img/scott-estrada-developer.jpg",
+  },
+  {
+    name: 'Walter Gordon',
+    role: 'Office Manager',
+    photo: "img/walter-gordon-office-manager.jpg",
   }
 ];
 const target = document.querySelector('.team-container');
 const button = document.getElementById('addMemberButton')
-// const card = document.createElement('div').classList.add('team-card');
-// const img = document.createElement('div').classList.add('card-image');
-// const text = document.createElement('div').classList.add('card-text');
-// const fullName = document.createElement('h3');
-// const role = document.createElement('p');
+
 
 function stampMember(){
   for (let i = 0; i < teamMembers.length; i++) {
